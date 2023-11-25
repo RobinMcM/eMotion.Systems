@@ -39,7 +39,7 @@ const AddJob = () => {
             defaultValue={user.location}
           />
           <FormRowSelect
-            labelText='job status'
+            labelText='job device'
             name='jobStatus'
             defaultValue={JOB_STATUS.PENDING}
             list={Object.values(JOB_STATUS)}
