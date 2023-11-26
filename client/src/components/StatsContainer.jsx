@@ -4,21 +4,21 @@ import StatItem from './StatItem';
 const StatsContainer = ({ defaultStats }) => {
   const stats = [
     {
-      title: 'pending applications',
+      title: 'Time Keeping',
       count: defaultStats?.pending || 0,
       icon: <FaSuitcaseRolling />,
       color: '#f59e0b',
       bcg: '#fef3c7',
     },
     {
-      title: 'interviews scheduled',
+      title: 'Monitoring',
       count: defaultStats?.interview || 0,
       icon: <FaCalendarCheck />,
       color: '#647acb',
       bcg: '#e0e8f9',
     },
     {
-      title: 'jobs declined',
+      title: 'Lone Worker',
       count: defaultStats?.declined || 0,
       icon: <FaBug />,
       color: '#d66a6a',
