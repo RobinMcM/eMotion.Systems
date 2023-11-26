@@ -1,7 +1,7 @@
 export const JOB_STATUS = {
-  PENDING: 'pending',
-  INTERVIEW: 'interview',
-  DECLINED: 'declined',
+  TIMEKEEPING: 'time-keeping',
+  MONITORING: 'monitoring',
+  LONEWORKER: 'lone-worker',
 };
 
 export const JOB_TYPE = {
