@@ -13,6 +13,8 @@ import {
   Stats,
   AllJobs,
   Profile,
+  Timesheets,
+  Monitoring,
   Admin,
   EditJob,
 } from './pages';
@@ -26,6 +28,8 @@ import { loader as editJobLoader } from './pages/EditJob';
 import { action as editJobAction } from './pages/EditJob';
 import { action as deleteJobAction } from './pages/DeleteJob';
 import { loader as adminLoader } from './pages/Admin';
+import { loader as timesheets } from './pages/Timesheets';
+import { loader as monitoring }from './pages/Monitoring';
 import { action as profileAction } from './pages/Profile';
 import { loader as statsLoader } from './pages/Stats';
 import ErrorElement from './components/ErrorElement';
@@ -93,6 +97,16 @@ const router = createBrowserRouter([
             element: <Profile />,
             action: profileAction(queryClient),
           },
+          {
+            path: 'timesheets',
+            element: <Timesheets />,
+            loader: timesheets,
+          },
+          {
+            path: 'monitoring',
+            element: <Monitoring />,
+            loader: monitoring,
+          },          
           {
             path: 'admin',
             element: <Admin />,
