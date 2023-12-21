@@ -16,11 +16,11 @@ Client Portal:  https://emotion.systems (Node.js + React)
 
 GateWay: https://www.lairdconnect.com/ (Sentrius)
 
-LoraWan : http://lowan.org:8080/#/login (ChirpStack)
+LoraWan : http://lowan.org:8080/#/login (ChirpStack - a - m)
 
 Communication
 
-MQTT: http://busysailing.com:15672/#/ (RabbitMQ)
+MQTT: http://busysailing.com:15672/#/ (RabbitMQ - a - m ) 
 
 Data
 
