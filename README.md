@@ -25,15 +25,12 @@ MQTT: http://busysailing.com:15672/#/ (RabbitMQ - a - m )
 Data
 
 Time DB: {TBC} (InFluxDB)
-Data Center: https://www.mongodb.com/ (DCS)
+Data Center: https://www.mongodb.com/ (DCS d - m)
 
-Monitoring: http://137.184.39.123:3000/ (Grafana)
+Monitoring: http://137.184.39.123:3000/ (Grafana d - m !)
 
 Devices 
 TTGO LoraEsp32
-
-
-
 
 
 
