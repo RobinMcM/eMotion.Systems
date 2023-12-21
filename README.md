@@ -1,6 +1,10 @@
 emotion.systems
 eMotion Systems Readme File 
 
+demo user 
+Login:   demo@mail.com  
+Details: demoemotion
+
 Client Front End
 https://emotion.systems (Takes a while to load as the biniaris have to be re-awoken)
 
